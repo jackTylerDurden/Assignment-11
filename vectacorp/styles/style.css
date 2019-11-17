@@ -3,14 +3,16 @@
 /* Padding below the footer and lighter body text */
 
 body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 3rem;    
     color: #5a5a5a;
   }
 
   .navbar{
     z-index: 9;
     top:-20px;
+  }
+  .nav-tabs{
+    border:none;
   }
 
   .scrollspy-example{
@@ -19,6 +21,11 @@ body {
     /* margin-top: .5rem; */
     overflow: auto;
   }
+
+  .footer{                
+    /* line-height: 30px;         */
+    font-size:12px;
+  }
   
   
   /* CUSTOMIZE THE CAROUSEL
@@ -26,10 +33,14 @@ body {
   
   /* Carousel base class */
   .carousel {
-    /* margin-bottom: 4rem; */
+    margin-bottom: 4rem;
     /* position: absolute; */
     width: 100%;
-    top: -120px;
+    top: -106px;
+  }
+
+  .mainContainer{
+    margin-bottom: 4rem;
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
